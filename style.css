@@ -1,0 +1,58 @@
+:root {
+    --text-base: #afb6c2;
+    --text-title: #d4ccb6;
+    --background: #191816;
+    --form-background: #24221f;
+    --primary-color: #ffc632;
+  }
+  *{
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 200;
+      font-size: 16pt;
+  }
+  body{
+      display: flex;
+      grid-template-columns: 1fr 1fr;
+      background-color: var(--form-background);
+      color: var(--text-base);
+      justify-content: space-between;
+  }
+  body img{
+      height: 100vh;
+  }
+  .container{
+      
+      height: 100%;
+      margin: auto;
+      display: block;
+      align-content: center;
+  }
+  header h1{
+      font-size: 24pt;
+      color: var(--text-title);
+      padding: 5px 0px;
+  }
+  header{
+      margin-bottom: 20px;
+  }
+  h3{
+      font-weight: bold;
+  }
+  #email-input, #senha-input, #checkbox{
+      padding: 5px 5px;
+      margin: 5px 0px 15px 0px;
+      border-style: none;
+      border: var(--text-base) solid 3px;
+      border-radius: 5px;
+      outline-style: none;
+  }
+  #email-input:focus, #senha-input:focus{
+      border: 5px solid #ffc632;
+  } 
+  #checkbox:active{
+      background-color: #ffc632;
+      color: #ffc632;
+  }
+  
