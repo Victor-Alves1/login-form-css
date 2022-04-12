@@ -9,7 +9,7 @@
       margin: 0;
       padding: 0;
       font-family: Arial, Helvetica, sans-serif;
-      font-weight: 200;
+      font-weight: 100;
       font-size: 16pt;
   }
   body{
@@ -32,27 +32,64 @@
   header h1{
       font-size: 24pt;
       color: var(--text-title);
-      padding: 5px 0px;
+      display: inline-block;
+      padding: 0px 0px 10px 0px;
+      vertical-align: middle;
   }
   header{
       margin-bottom: 20px;
   }
+  header img{
+      width: 30px;
+      height: 30px;
+      display: inline-block;
+      display: inline-block;
+      padding: 0px 5px 10px 0px;
+      vertical-align: middle;
+  }
   h3{
       font-weight: bold;
   }
-  #email-input, #senha-input, #checkbox{
+  #email-input, #senha-input{
       padding: 5px 5px;
       margin: 5px 0px 15px 0px;
+      width: 100%;
       border-style: none;
       border: var(--text-base) solid 3px;
       border-radius: 5px;
       outline-style: none;
+      background: none;
   }
   #email-input:focus, #senha-input:focus{
-      border: 5px solid #ffc632;
+      border: 3px solid #ffc632;
   } 
-  #checkbox:active{
-      background-color: #ffc632;
-      color: #ffc632;
+  #checkbox{
+      width: 20px;
+      height: 20px;
+      vertical-align: auto;
   }
-  
+  .flex{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 15px;
+  }
+  .esqueci-senha{
+      font-size: 14pt;
+      color: var(--primary-color);
+  }
+  button{
+      padding: 10px;
+      border-radius: 5px;
+      width: 100%;
+      background-color: #ffc632;
+      outline-style: 0;
+      box-shadow: 0 0 0 0;
+      font-weight: bold;
+  }
+  .registrar{
+      color: var(--primary-color);
+      font-size: 14pt;
+      margin-top: 10px;
+      text-align: center;
+  }
+
