@@ -47,7 +47,7 @@
       padding: 0px 5px 10px 0px;
       vertical-align: middle;
   }
-  h3{
+  label{
       font-weight: bold;
       width: 100%;
   }
@@ -74,9 +74,8 @@
   .email img, .password img{
     width: 30px;
     height: 30px;
-    display: inline-block;
+    display: block;
     padding: 10px 10px 10px 10px;
-    vertical-align: middle;
     position:absolute;
   }
   
@@ -118,5 +117,10 @@
   @media (max-width:1156px){
     .plano-de-fundo{
         display: none;
+    }
+    @media (max-width: 550px){
+    .flex{
+        display: block;
+    }
     }
   }
