@@ -23,7 +23,9 @@
       justify-content: space-between;
   }
   .plano-de-fundo{
-      height: 100vh; 
+      height: 100vh;
+      min-width: 40%; 
+      object-fit: cover;
   }
   .container{
       margin: auto;
@@ -114,7 +116,7 @@
       text-align: center;
   }
 
-  @media (max-width:1156px){
+  @media (max-width:1000px){
     .plano-de-fundo{
         display: none;
     }
