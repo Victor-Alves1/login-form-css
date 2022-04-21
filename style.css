@@ -120,6 +120,9 @@
     .plano-de-fundo{
         display: none;
     }
+    .container{
+        margin-top: 50px;
+    }
     }
 @media (max-width: 550px){
     .flex{
