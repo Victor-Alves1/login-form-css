@@ -120,9 +120,13 @@
     .plano-de-fundo{
         display: none;
     }
-    @media (max-width: 550px){
+    }
+@media (max-width: 550px){
     .flex{
         display: block;
     }
+    .container{
+        padding: 100px 50px;
     }
-  }
+}
+  
