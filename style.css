@@ -120,8 +120,8 @@
     .plano-de-fundo{
         display: none;
     }
-    .container{
-        margin-top: 50px;
+    body{
+        height: 100vh;
     }
     }
 @media (max-width: 550px){
@@ -130,6 +130,7 @@
     }
     .container{
         padding: 100px 50px;
+        
     }
 }
   
